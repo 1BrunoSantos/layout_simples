@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Simples em Tabela</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; 
+            background-color: #cccccc;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+        }
+
+        .main-table {
+            background-color: #ffffff;
+            max-width: 400px;
+            border-collapse: collapse; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        }
+
+        .main-table td {
+            padding: 15px;
+            text-align: center; 
+        }
+
+        .text {
+            text-align: justify;
+            line-height: 1.5;
+            margin-bottom: 15px; 
+        }
+
+        .main-table img {
+            max-width: 100%; 
+            height: auto;
+        }
+
+        .main-table a {
+            display: inline-block;
+            margin-top: 10px; 
+        }
+
+        .main-table a img {
+            max-width: 50px;
+        }
+
+        .main-table p {
+            margin: 0; 
+        }
+    </style>
+</head>
+<body>
+    <table class="main-table">
+        <tr>
+            <td>
+                <img src="/imagens/ztype.png" alt="Imagem da tela inicial do jogo">
+                <p class="text">
+                    Quer melhorar sua  habilidade de digitação. <br>
+                    Conheça o ZType, o jogo que desafia você a digitar <br>
+                    com todos os dedos e velocidade relâmpago! <br>
+                    Comece com palavras simples e, em pouco <br>
+                    tempo, estará enfrentando monstros como <br>
+                    pneumoultramicroscopicossilicovulcanoconiótico.
+                </p>
+                <p><strong>Para tentar, clique no astronauta:</strong></p>
+                <a href="https://zty.pe/?text=ef733a0c73531bea" target="_blank"><img src="/imagens/icone.jpg" alt="Imagem de um astronauta"></a>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
